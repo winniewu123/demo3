@@ -15,6 +15,8 @@ public class TestController
         Map<String, String> result = new HashMap<>();
         result.put("test1", "test1");
         result.put("test2", "test2");
-        result.put("test3", "test3"); return result;
+        result.put("test3", "test3");
+        result.put("test4", "test4");
+        return result;
     }
 }
