@@ -16,10 +16,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @Configuration
 public class Swagger2 { @Bean
-public Docket createRestApi() { return new Docket(DocumentationType.SWAGGER_2) .groupName("Spring boot Demo") .apiInfo(apiInfo()) .select() .apis(RequestHandlerSelectors.basePackage("com.demo.controller"))// 扫描的包所在位置
+public Docket createRestApi() { return new Docket(DocumentationType.SWAGGER_2) .groupName("Spring boot Demo3") .apiInfo(apiInfo()) .select() .apis(RequestHandlerSelectors.basePackage("com.example.demo3.controller"))// 扫描的包所在位置
         .paths(PathSelectors.any()) // 扫描的 URL 规则
         .build();
-} private ApiInfo apiInfo() { Contact contact = new Contact("Spring Boot Demo", "localhost:98765/swagger-ui.html", "17520098152@163.com"); // 联系信息
+} private ApiInfo apiInfo() { Contact contact = new Contact("Spring Boot Demo", "localhost:98765/swagger-ui.html", "1269878284@qq.com"); // 联系信息
     return new ApiInfoBuilder() .title("Spring boot 演示项目") // 大标题
             .description("Spring boot 演示项目") // 描述
             .termsOfServiceUrl("localhost:98765/swagger-ui.htm")// 服务条款 URL
