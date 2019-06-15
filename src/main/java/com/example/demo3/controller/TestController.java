@@ -18,6 +18,7 @@ public class TestController
         result.put("test3", "test3");
         result.put("test4", "test4");
         result.put("test5", "test5");
+        result.put("test6", "test6");
         return result;
     }
 }
